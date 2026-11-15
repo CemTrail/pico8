@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run PICO-8",
+      "type": "shell",
+      "command": "${env:HOME}/pico-8/pico8",
+      "args": ["-run", "${workspaceFolder}/PICO8.p8"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "never" },
+      "problemMatcher": []
+    }
+  ]
+}
