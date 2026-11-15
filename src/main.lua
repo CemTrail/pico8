@@ -1,10 +1,8 @@
-function _init()
+function _init() --happens one time
 end
 
-function _update()
+function _update() --happens 30 times per second
 end
 
-function _draw()
-  cls()
-  print("hallo pico-8", 40, 60, 7)
+function _draw() --happens 30 times/second BUT after _update()  
 end

@@ -9,6 +9,15 @@
       "group": { "kind": "build", "isDefault": true },
       "presentation": { "reveal": "never" },
       "problemMatcher": []
+    },
+    {
+      "label": "Run Cave",
+      "type": "shell",
+      "command": "${env:HOME}/pico-8/pico8",
+      "args": ["-run", "${workspaceFolder}/cave/cave.p8"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "never" },
+      "problemMatcher": []
     }
   ]
 }
