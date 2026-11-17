@@ -18,6 +18,15 @@
       "group": { "kind": "build", "isDefault": true },
       "presentation": { "reveal": "never" },
       "problemMatcher": []
+    },
+    {
+      "label": "Run Screensavers",
+      "type": "shell",
+      "command": "${env:HOME}/pico-8/pico8",
+      "args": ["-run", "${workspaceFolder}/screensavers/rect.p8"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "never" },
+      "problemMatcher": []
     }
   ]
 }
