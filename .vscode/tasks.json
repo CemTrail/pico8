@@ -27,6 +27,15 @@
       "group": { "kind": "build", "isDefault": true },
       "presentation": { "reveal": "never" },
       "problemMatcher": []
+    },
+    {
+      "label": "Run Breakout",
+      "type": "shell",
+      "command": "${env:HOME}/pico-8/pico8",
+      "args": ["-run", "${workspaceFolder}/breakout/breakout.p8"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "never" },
+      "problemMatcher": []
     }
   ]
 }
